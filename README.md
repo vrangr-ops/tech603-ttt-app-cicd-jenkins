@@ -2,4 +2,4 @@
 - Used for CICD pipeline
 - Readme updated to check hook trigger from github
 
-- Line added to test triggers with push to dev branch on wednesday 20th of may
+- Line added to test triggers with push to dev branch on wednesday 20th of may 15:29
