@@ -23,7 +23,11 @@
 
 ## CICD Pipeline architecture using jenkins
 
+<<<<<<< HEAD
  ![excalidraw.svg](_resources/excalidraw-a07f76bc879f4f5c9ae7f2099c11f367.svg) 
+=======
+ ![excalidraw.svg](../../../_resources/excalidraw-a07f76bc879f4f5c9ae7f2099c11f367.svg) 
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 
 Why did we setup the CICD pipeline the way we did, benefits you have seen, benefits for an organisation?
 
@@ -65,7 +69,11 @@ How did you setup each of your jobs (including authentication/security), webhook
     
 
 **Connecting jenkins to github**  
+<<<<<<< HEAD
 ![e4c90a2f6cf4b4aec513490cf26c3425.png](_resources/e4c90a2f6cf4b4aec513490cf26c3425.png)
+=======
+![e4c90a2f6cf4b4aec513490cf26c3425.png](../../../_resources/e4c90a2f6cf4b4aec513490cf26c3425.png)
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 
 ### Creating webhook
 
@@ -125,7 +133,11 @@ How did you setup each of your jobs (including authentication/security), webhook
 | Build Steps | Execute shell;  <br><br/><br/>git fetch origin  <br>git checkout main  <br>git pull origin main  <br>git merge origin/dev --no-edit  <br>git push origin main |
 
 **Successful build**  
+<<<<<<< HEAD
 ![49877f4f3a232754be9c8921903bbb15.png](_resources/49877f4f3a232754be9c8921903bbb15.png)  
+=======
+![49877f4f3a232754be9c8921903bbb15.png](../../../_resources/49877f4f3a232754be9c8921903bbb15.png)  
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 <br/>
 
 ### Using git publisher plugin for merging dev branch to main (preferred method)
@@ -154,7 +166,11 @@ How did you setup each of your jobs (including authentication/security), webhook
 
 **Successful build**
 
+<<<<<<< HEAD
 **![7890c817db3a57f08fc87101d2c1d168.png](_resources/7890c817db3a57f08fc87101d2c1d168.png)**
+=======
+**![7890c817db3a57f08fc87101d2c1d168.png](../../../_resources/7890c817db3a57f08fc87101d2c1d168.png)**
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 
 ## Deploying sparta app v1.2 to app running on EC2 using jenkins(CD)
 
@@ -179,23 +195,39 @@ How did you setup each of your jobs (including authentication/security), webhook
 
 **Successful build**
 
+<<<<<<< HEAD
 ![7ace4a16ad12f8bd0fb279a0ee36c231.png](_resources/7ace4a16ad12f8bd0fb279a0ee36c231.png)
+=======
+![7ace4a16ad12f8bd0fb279a0ee36c231.png](../../../_resources/7ace4a16ad12f8bd0fb279a0ee36c231.png)
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 
 &nbsp;
 
 ## Testing pipeline
 
 Original timestamp  
+<<<<<<< HEAD
 ![b1cc500e0b71f8f0e0a301db16a12a7f.png](_resources/b1cc500e0b71f8f0e0a301db16a12a7f.png)
+=======
+![b1cc500e0b71f8f0e0a301db16a12a7f.png](../../../_resources/b1cc500e0b71f8f0e0a301db16a12a7f.png)
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 
 1.  Navigate to the app folder using a bash terminal
 2.  `git status`
 3.  `git checkout origin dev`
 4.  Edit the `server.js` file using text editor ---> save the file  
+<<<<<<< HEAD
     ![3f02ae56cea853598bc0f5b1ae35ac63.png](_resources/3f02ae56cea853598bc0f5b1ae35ac63.png)
+=======
+    ![3f02ae56cea853598bc0f5b1ae35ac63.png](../../../_resources/3f02ae56cea853598bc0f5b1ae35ac63.png)
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
 5.  `git add .`
 6.  `git commit -m "timestamp change"`
 7.  `git push origin dev`
 8.  Navigate to the app instance by pasting the public IP using http from a web browser
 
+<<<<<<< HEAD
 ![da3403040c7e427409ae32868bb93fd3.png](_resources/da3403040c7e427409ae32868bb93fd3.png)
+=======
+![da3403040c7e427409ae32868bb93fd3.png](../../../_resources/da3403040c7e427409ae32868bb93fd3.png)
+>>>>>>> 097c7ccd7d981fd804fb442a677e2d0ddc0aaca6
